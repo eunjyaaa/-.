@@ -23,3 +23,16 @@ git pull origin master
 - pull로 변경사항의 내역을 가지고 온 다음, `수정 -> add -> commit` 
   - 충돌을 수정한 또 하나의 커밋을 쌓는다.
 - 수정 이후, `push`하면 된다.
+
+# 브랜치 목록 확인
+git branch
+
+# 새로운 브랜치 생성
+git branch 신규브랜치명
+
+# 평행세계로 이동!
+git switch 브랜치명
+
+# 특정 브랜치 삭제
+git branch -d 브랜치명
+git branch -D 브랜치 명 # 병합 안된 브랜치도 강제 삭제
