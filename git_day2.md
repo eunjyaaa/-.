@@ -30,7 +30,7 @@ git pull origin master
 - 복제된 폴더를 열어서 작업 후 `add, commit, push`를 통해 변경 사항 기록한다.
 - 다른 유저는 편집하고자 할 때 `pull origin master`을 통해 변경 사항을 가져와서 이어서 편집한다.
 > 만일 수정사항에 충돌이 발생한다면?
-  - `pull`해서 변경 사항을 알맞게 수정한 이후, `add, commit, push`하고 마지막으로 `push`하여 충돌을 수정한다!
+  - `pull`해서 변경 사항을 알맞게 수정한 이후, `add, commit`하고 마지막으로 `push`하여 충돌을 수정한다!
 
 ## 브랜치 목록 확인
 ```
